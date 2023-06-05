@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
-/* reset */
+
 *,::before,::after {
    margin: 0;
    padding: 0;
@@ -29,9 +29,9 @@ img {
    height: auto;
 }
 
-/* project variables */
+
 :root {
-   /* fonts */
+
    --first-font: "Barlow", sans-serif;
    --second-font: "Fraunces", serif;
    --size-font: 1.8rem;
@@ -39,12 +39,12 @@ img {
    --bold-font: 700;
    --black-font: 900;
 
-   /* colors */
+  
    --soft-red: hsl(7, 99%, 70%);
    --yellow: hsl(51, 100%, 49%);
-   --dark-desaturated-cyan: hsl(167, 40%, 24%); /* graphic design text */
-   --dark-blue: hsl(198, 62%, 26%); /* photography text */
-   --dark-moderate-cyan: hsl(168, 34%, 41%); /* footer */
+   --dark-desaturated-cyan: hsl(167, 40%, 24%); 
+   --dark-blue: hsl(198, 62%, 26%); 
+   --dark-moderate-cyan: hsl(168, 34%, 41%); 
 
    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
    --very-dark-grayish-blue: hsl(213, 9%, 39%);
@@ -57,7 +57,7 @@ img {
    --footer-green: hsl(167, 44%, 70%);
 }
 
-/* project settings */
+
 body {
    font-family: var(--first-font);
    font-size: var(--size-font);
@@ -67,7 +67,7 @@ body {
    margin: 0;
 }
 
-/*=== LAYOUT START ===*/
+
 
 .section {
    width: 100vw;
@@ -95,9 +95,6 @@ body {
       }
 }
 
-/*=== LAYOUT END ===*/
-
-/*=== HEADER START ===*/
 
 .header {
    height: 8.8rem;
@@ -116,7 +113,7 @@ body {
       }
 }
 
-/* HEADER > LOGO */
+
 .header > .container > .logo {
    display: flex;
    justify-content: flex-start;
@@ -131,7 +128,7 @@ body {
       }
 }
 
-/* HEADER > MENU-BUTTON */
+
 .header > .container > .menu-button {
    width: 4.8rem;
    height: 4.8rem;
@@ -156,7 +153,7 @@ body {
    background-color: var(--white);
 } 
 
-/* HEADER > NAV */
+
 .header > .container > .main-nav {
    display: block;
    width: calc(100% - 4.8rem);
@@ -261,9 +258,7 @@ body {
       }
 }
 
-/*=== HEADER END ===*/
 
-/*=== BANNER START ===*/
 
 .banner {
    height: 100vh;
@@ -321,9 +316,6 @@ body {
    animation: updown .3s linear infinite alternate;
 }
 
-/*=== BANNER END ===*/
-
-/*=== COMPANY START ===*/
 
 .company {
    background-color: var(--white);
@@ -443,9 +435,6 @@ body {
       }
 }
 
-/*=== COMPANY END ===*/
-
-/*=== SERVICES START ===*/
 
 .services > .container {
    display: grid;
@@ -507,9 +496,7 @@ body {
    margin: 0 auto;
 }
 
-/*=== SERVICES END ===*/
 
-/*=== TESTIMONIALS START ===*/
 
 .testimonials {
    background-color: var(--white);
@@ -594,9 +581,7 @@ body {
    color: var(--grayish-blue);
 }
 
-/*=== TESTIMONIALS END ===*/
 
-/*=== GALLERY START ===*/
 
 .gallery > .container {
    padding: 0;
@@ -687,9 +672,6 @@ body {
       }
 }
 
-/*=== FOOTER END ===*/
-
-/*=== CREDITS START ===*/
 
 .credits {
    width: 100%;
@@ -712,4 +694,4 @@ body {
    transition: color .3s ease-in-out;
 }
 
-/*=== CREDITS END ===*/
+
