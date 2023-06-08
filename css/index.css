@@ -302,7 +302,7 @@ body {
          margin: 14rem 0 10rem;
       }
 }
-/* 
+
 @keyframes updown {
    from {
       transform: translateY(0);
@@ -310,7 +310,7 @@ body {
    to{
       transform: translateY(10%);
    }
-} */
+}
 
 .banner > .container > .down-arrow {
    animation: updown .3s linear infinite alternate;
