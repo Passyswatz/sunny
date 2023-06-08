@@ -302,7 +302,7 @@ body {
          margin: 14rem 0 10rem;
       }
 }
-
+/* 
 @keyframes updown {
    from {
       transform: translateY(0);
@@ -310,7 +310,7 @@ body {
    to{
       transform: translateY(10%);
    }
-}
+} */
 
 .banner > .container > .down-arrow {
    animation: updown .3s linear infinite alternate;
@@ -683,15 +683,6 @@ body {
    text-align: center;
 }
 
-.credits > .link {
-   text-align: center;
-   color: var(--very-dark-desaturated-blue);
-   transition: color .3s ease-in-out;
-}
 
-.credits > .link:hover {
-   color: var(--white);
-   transition: color .3s ease-in-out;
-}
 
 
